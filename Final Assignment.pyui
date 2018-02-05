@@ -1,0 +1,200 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {540, 540}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "MainScreen",
+          "uuid" : "7297F2D0-8A59-4BE6-BAC3-D6A02B7A281F",
+          "frame" : "{{220, 220}, {100, 100}}",
+          "background_color" : "RGBA(0.419608,0.556863,0.137255,1.000000)"
+        },
+        "frame" : "{{0, -2}, {550, 542}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 36,
+          "text" : "TANK BUSTER",
+          "font_name" : "<System-Bold>",
+          "name" : "TitleLabel",
+          "alpha" : 0,
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "background_color" : "RGBA(0.419608,0.556863,0.137255,1.000000)",
+          "uuid" : "FA7005FC-0E22-4A51-9992-19E9EF58F122"
+        },
+        "frame" : "{{2, 2}, {538, 42}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(0.419608,0.556863,0.137255,1.000000)",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "custom_attributes" : "",
+          "font_size" : 15,
+          "title" : "Instructions",
+          "border_color" : "RGBA(0.191038,0.191038,0.191038,1.000000)",
+          "action" : "InstructionButton",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_bold" : true,
+          "alpha" : 0,
+          "name" : "InstructionButton",
+          "border_width" : 5,
+          "uuid" : "17190112-C770-480C-8FFB-00810A94B399",
+          "corner_radius" : 5,
+          "class" : "Button"
+        },
+        "frame" : "{{6, 484}, {120, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(0.419608,0.556863,0.137255,1.000000)",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "border_color" : "RGBA(0.202830,0.202830,0.202830,1.000000)",
+          "font_size" : 15,
+          "title" : "Play",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "action" : "PlayButton",
+          "font_bold" : true,
+          "alpha" : 0,
+          "name" : "PlayButton",
+          "border_width" : 5,
+          "uuid" : "31140294-38AB-4E1A-9388-66ED059F28DC",
+          "corner_radius" : 5,
+          "class" : "Button"
+        },
+        "frame" : "{{414, 484}, {120, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "TimerLabel",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "7EB0F78D-547B-4A58-A567-5A302FB406EB"
+        },
+        "frame" : "{{196, 434}, {150, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "tint_color" : "RGBA(0.531250,1.000000,1.000000,1.000000)",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "background_color" : "RGBA(0.562500,1.000000,1.000000,1.000000)",
+          "uuid" : "6620A172-9D18-4AA7-A0EC-F3DA244FCD42"
+        },
+        "frame" : "{{0, -2}, {550, 250}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 56,
+          "tint_color" : "RGBA(0.139151,0.139151,0.139151,1.000000)",
+          "uuid" : "791CCF96-4342-497B-817E-9D97EA834AF6",
+          "name" : "SplashButton",
+          "action" : "SplashButton",
+          "class" : "Button",
+          "alpha" : 1,
+          "background_color" : "RGBA(0.419608,0.556863,0.137255,1.000000)",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "BUNKER PROTECTOR"
+        },
+        "frame" : "{{0, -2}, {550, 542}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(0.419608,0.556863,0.137255,1.000000)",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "image_name" : "iob:alert_24",
+          "font_size" : 15,
+          "title" : "",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "flex" : "",
+          "action" : "TankImage",
+          "alpha" : 0,
+          "name" : "TankImage",
+          "uuid" : "11426DFE-35C2-4D94-8251-9E5E3017236F",
+          "class" : "Button"
+        },
+        "frame" : "{{250, 243}, {50, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "You are under attack! Defend your bunker by destroying 20 enemy tanks and helicopters as fast as you can. Good luck!",
+          "font_name" : "<System-Bold>",
+          "name" : "InstructionLabel",
+          "alpha" : 0,
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "background_color" : "RGBA(0.560784,1.000000,1.000000,1.000000)",
+          "uuid" : "8E32EB4F-C7AF-49A1-828F-1C073229FF86"
+        },
+        "frame" : "{{135, 114}, {280, 134}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
